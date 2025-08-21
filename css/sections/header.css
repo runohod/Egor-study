@@ -20,4 +20,8 @@
 .header_nav_list {
      display: flex;
      gap: 60px;
+    font-family: ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
 }
