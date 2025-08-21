@@ -1,3 +1,10 @@
 :root {
-    
+    --color-default: #598D66;
+    --color-hover: #598D66;
+    --color-focus: #598D66;
+    --color-active: #376B44;
+}
+
+.container {
+ color: var(--color-...);
 }
