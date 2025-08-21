@@ -1,3 +1,17 @@
-header {
-    display:flex
+.header {
+    background: #e1ede6;
+    height: 100px;
+}
+
+.header_nav-link{
+    display: flex;
+    color: #2c2d35;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
