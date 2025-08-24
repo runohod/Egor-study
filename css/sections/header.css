@@ -1,27 +1,45 @@
 .header {
     background: #e1ede6;
     height: 100px;
-}
-
-.header_nav-link{
     display: flex;
-    color: #2c2d35;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 100%;
+    align-items: center;
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header_logo img {
+    width: 143px;
+    height: 35px;
 }
 
 .header_nav_list {
     display: flex;
+    align-items: center;
     gap: 60px;
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
+}
+
+.header_nav-link{
+    display: flex;
+    align-items: center;
+    color: #2c2d35;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    align-items: center;
+}
+
+.header_nav-link:hover {
+    color: #598d66;
 }
