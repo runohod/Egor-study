@@ -1,8 +1,15 @@
-.container {
-    max-width: 1440px;
-    height: 574px;
-    margin: 0px auto;
+.promo {
     background-image: url(/img/bg-promo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding:  70px 0px;
+    max-height: 540px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px 50px;
 }
 
 .title-promo {
@@ -13,8 +20,16 @@
     margin-bottom: 20px;
 }
 
-.promo {
-    margin-top: 50px;
+.promo-text {
+    line-height: 150%;
+    max-width: 540px;
 }
 
-
+#button__promo {
+    background: #eedb6d;
+    font-size: 20px;
+    width: 257px;
+    height: 65px;
+    margin-top: 60px;
+    cursor: pointer;
+}
