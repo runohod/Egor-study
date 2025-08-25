@@ -21,7 +21,6 @@
 
 .h1 {
     width: 540px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
