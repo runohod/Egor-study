@@ -1,0 +1,28 @@
+.about {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.container-about {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.title__command {
+    font-size: 40px;
+    line-height: 110%;
+    margin-bottom: 20px;
+}
+
+.text__command {
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.members__command {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+

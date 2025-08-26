@@ -1,5 +1,5 @@
 .promo {
-    background-image: url(/img/bg-promo.svg);
+    background-image: url(/img/bg-promo.png);
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
@@ -11,7 +11,9 @@
 }
 
 .container {
-    margin: 0px 50px;
+    margin: 0px 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title-promo {
