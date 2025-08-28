@@ -5,6 +5,13 @@
     --color-active: #376B44;
 }
 
+* {
+    font-family: "Raleway", sans-serif;
+}
+
 .container {
- color: var(--color-...);
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
 }

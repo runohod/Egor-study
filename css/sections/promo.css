@@ -11,9 +11,10 @@
 }
 
 .container-promo {
-    margin: 0px 400px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
+    
 }
 
 .title-promo {
